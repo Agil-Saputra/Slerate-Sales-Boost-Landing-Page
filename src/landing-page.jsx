@@ -7,15 +7,13 @@ import {
   BarChart3,
   Target,
   CheckCircle,
-  Menu,
   Plus,
   Minus,
-  X,
 } from "lucide-react";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "motion/react";
 import Navbar from "./components/navbar";
-import Plane from "./assets/plane.png"; // Assuming you have a plane image in your assets
+import Plane from "./assets/plane.webp"; // Assuming you have a plane image in your assets
 
 // Import client logos
 import Client1 from "./assets/clients/1.png";
