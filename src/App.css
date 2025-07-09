@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "Teko";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/fonts/Teko-Regular-BF64489c9c19e54.ttf) format("ttf");
+    }
+}
+
+.custom-container{
+	@apply w-full xl:max-w-6xl mx-auto px-6
+}
